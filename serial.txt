@@ -1,0 +1,35 @@
+This work is contributed by Himangshu, Adarsh, Avaneesh, Abhinav
+11 January 2022 10:58:15 PM
+
+ Serial version
+
+  ND, the spatial dimension, is 3
+  NP, the number of particles in the simulation is 1000
+  STEP_NUM, the number of time steps, is 400
+  DT, the size of each time step, is 0.01
+
+  At each step, we report the potential and kinetic energies.
+  The sum of these energies should be a constant.
+  As an accuracy check, we also print the relative error
+  in the total energy.
+
+      Step      Potential       Kinetic        (P+K-E0)/E0
+                Energy P        Energy K       Relative Energy Error
+
+         0          498159               0               0
+        40          497516         639.317    -7.30671e-06
+        80          495761         2481.51     0.000166438
+       120          494557         4033.22     0.000865193
+       160          494223          4880.4      0.00189424
+       200          494348          5350.9      0.00309068
+       240          494563         5694.11      0.00421014
+       280          494938         5848.21      0.00527285
+       320          495060         6229.87      0.00628413
+       360          495471         6434.52      0.00752001
+       400          496324         5972.13      0.00830389
+
+  Elapsed cpu time 122.619 seconds.
+
+  Normal end of execution.
+
+11 January 2022 11:00:17 PM

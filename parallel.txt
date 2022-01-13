@@ -1,0 +1,42 @@
+This work is contributed by Himangshu, Adarsh, Avaneesh, Abhinav
+11 January 2022 10:57:18 PM
+
+ OpenMP parallel version
+ 
+  NP, the number of particles in the simulation is 1000
+  STEP_NUM, the number of time steps, is 400
+  DT, the size of each time step, is 0.01
+
+  Number of processors available = 12
+  Number of threads =              12
+
+  Initializing positions, velocities, and accelerations.
+
+  Computing initial forces and energies.
+
+  At each step, we report the potential and kinetic energies.
+  The sum of these energies should be a constant.
+  As an accuracy check, we also print the relative error
+  in the total energy.
+
+      Step      Potential       Kinetic        (P+K-E0)/E0
+                Energy P        Energy K       Relative Energy Error
+
+         0          498130               0               0
+        40          497458         665.492    -1.11915e-05
+        80          495181         3061.32     0.000225921
+       120          494340         4419.17      0.00126351
+       160          494643         4595.44      0.00222538
+       200          494579         5122.08      0.00315536
+       240          494337         5932.45      0.00429577
+       280          494757          6232.4      0.00574119
+       320          495293         6180.82      0.00671313
+       360          495887         6043.53      0.00763027
+       400          496598         5638.05      0.00824485
+
+  Elapsed cpu time for main computation:
+  11.164 seconds.
+
+  Normal end of execution.
+
+11 January 2022 10:57:29 PM
