@@ -13,3 +13,7 @@ export OMP_NUM_THREADS=NUMBER_OF_THREADS
 g++ -o mdParallel -fopenmp mdParallel.cpp
 ./mdParallel nd np num_steps
 ```
+Video Presentation
+```
+https://drive.google.com/file/d/1zOTlu3Gy7qIeaYmTMc7NwS_nT6K5blpb/view?usp=sharing
+```
